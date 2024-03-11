@@ -1,13 +1,7 @@
-edge_dot_drawer.zip : µeÂI°}¹Ï¥Îªº³nÅé (¬O¤é¤å¤¶­±©Ò¥Hª½±µ¶}·|¶Ã½X¡A¦ı¤£¼vÅT¨Ï¥Î¡^
-Images : ¸Ì­±¸Ëgif(ÁÙ¨SÂàppm or mem) error©MwarningÁÙ¬O¶}20x20µe¤F ¤£µMÅå¹Ä¸¹µe°_¨Ó·|ÁàÁàªº...
-lab10.v : ´N¬Olab10¡C®³¨Ó°Ñ¦Òªº
-wiwado.zip : project¥»Åé
-
-
 source_code : 
-  -  wiwado_top.v   : top module¡A±±¨îÅã¥Ü(rgb_reg)
-  -  score_display  : ±±¨î­nÅã¥Üªº¼Æ¦r¡A¿é¥X1bitªº score_region (¤w¦b¦¹¼Ò²Õ¤º¥h­I§¹¦¨)
-  -  number_rom.v   : Åªnumber.memªºrom¡A§âweªº³¡¤À¬å±¼¤F¦]¬°¤£¥Î¼g¤J
-  -  bin2bcd_serial : §âbinary numberÂà´«¦¨bcd code ¡A ¥Î¦bscore_display¤º
-  -  vga_sync       : vgaªºªFªF
-  -  clk_divider    : vgaªºªFªF
+  -  wiwado_top.v   : top moduleï¼Œæ§åˆ¶é¡¯ç¤º(rgb_reg)
+  -  score_display  : æ§åˆ¶è¦é¡¯ç¤ºçš„æ•¸å­—ï¼Œè¼¸å‡º1bitçš„ score_region (å·²åœ¨æ­¤æ¨¡çµ„å…§å»èƒŒå®Œæˆ)
+  -  number_rom.v   : è®€number.memçš„romï¼ŒæŠŠweçš„éƒ¨åˆ†ç æ‰äº†å› ç‚ºä¸ç”¨å¯«å…¥
+  -  bin2bcd_serial : æŠŠbinary numberè½‰æ›æˆbcd code ï¼Œ ç”¨åœ¨score_displayå…§
+  -  vga_sync       : vgaçš„æ±æ±
+  -  clk_divider    : vgaçš„æ±æ±
