@@ -1,0 +1,13 @@
+edge_dot_drawer.zip : 畫點陣圖用的軟體 (是日文介面所以直接開會亂碼，但不影響使用）
+Images : 裡面裝gif(還沒轉ppm or mem) error和warning還是開20x20畫了 不然驚嘆號畫起來會醜醜的...
+lab10.v : 就是lab10。拿來參考的
+wiwado.zip : project本體
+
+
+source_code : 
+  -  wiwado_top.v   : top module，控制顯示(rgb_reg)
+  -  score_display  : 控制要顯示的數字，輸出1bit的 score_region (已在此模組內去背完成)
+  -  number_rom.v   : 讀number.mem的rom，把we的部分砍掉了因為不用寫入
+  -  bin2bcd_serial : 把binary number轉換成bcd code ， 用在score_display內
+  -  vga_sync       : vga的東東
+  -  clk_divider    : vga的東東
